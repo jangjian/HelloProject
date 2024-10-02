@@ -1,4 +1,4 @@
-package com.example.helloproject;
+package android.study.helloproject;
 
 import android.content.Context;
 

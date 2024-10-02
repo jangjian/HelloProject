@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
@@ -33,11 +34,14 @@
                             android:gravity="center_vertical"/>
 
                         <EditText
+                            android:id="@+id/user_id"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:autofillHints=""
                             android:inputType="textPersonName"
-                            android:ems="10"/>
+                            android:ems="10"
+                            tools:ignore="LabelFor" />
                 </LinearLayout>
 
                 <!-- 비밀번호 Field -->
@@ -53,16 +57,19 @@
                             android:gravity="center_vertical"/>
 
                         <EditText
+                            android:id="@+id/user_pw"
                             android:layout_width="0dp"
                             android:layout_height="wrap_content"
                             android:layout_weight="1"
+                            android:autofillHints=""
                             android:inputType="textPassword"
                             android:ems="10"
-                            />
+                            tools:ignore="LabelFor" />
                 </LinearLayout>
         </LinearLayout>
 
         <Button
+            android:id="@+id/login_btn"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:ems="20"
