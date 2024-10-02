@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         joinButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent intent = new Intent(getApplicationContext(), JoinActivity.class);
+                Intent intent = new Intent(Intent.ACTION_VIEW);    // ACTION_VIEW 액션을 사용하여 암시적 Intent를 생성하고, 해당 인텐트를 처리할 수 있는 앱 또는 액티비티가 있는지 확인한다.
                 startActivity(intent);
             }
         });
