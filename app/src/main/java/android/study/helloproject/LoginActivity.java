@@ -9,7 +9,7 @@ import android.widget.EditText;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.helloproject.R;
+import android.study.helloproject.R;    // R. 리소스를 사용하기 위해 import 함.
 
 public class LoginActivity extends AppCompatActivity {
     Button loginBtn;

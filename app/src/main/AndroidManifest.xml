@@ -41,6 +41,7 @@
             </intent-filter>
         </activity>
         <activity android:name="android.study.helloproject.LoginResultActivity"/>
+        <activity android:name="android.study.helloproject.JoinResultActivity"/>
     </application>
 
 </manifest>

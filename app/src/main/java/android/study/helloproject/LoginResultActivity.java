@@ -8,7 +8,7 @@ import android.widget.TextView;
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.helloproject.R;
+import android.study.helloproject.R;
 
 public class LoginResultActivity extends AppCompatActivity {
 
